@@ -1,0 +1,55 @@
+
+
+
+body {
+    background-image: url("Airport1.webp");
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(10, 10, 10);
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.increment-btn {
+    background: rgb(248, 3, 3);
+}
+.increment-btn:active {
+    background-color: rgba(188, 35, 3, 0.7);
+  }
+.decrement-btn {
+    background: rgb(44, 179, 50);
+}
+.decrement-btn:active {
+    background-color: rgba(25, 187, 87, 0.5);
+  }
+.reset-btn {
+    background: #009987;
+}
+.reset-btn:active {
+    background-color: rgba(81, 253, 224, 0.4);
+  }
